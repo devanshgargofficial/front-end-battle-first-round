@@ -167,3 +167,35 @@ main {
     border-radius: 20px;
     margin-right: 10px;
 }
+/* Basic Reset 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*/
+/* Swiper Container */
+.swiper-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #007aff;
+    color: #fff;
+    font-size: 20px;
+    height: 200px; /* Adjust the height as needed */
+}
